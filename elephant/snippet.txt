@@ -1,0 +1,14 @@
+<model-viewer src="elephant.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.14370523664005472m 0.21519717884475292m -0.014527967683785831m" data-normal="-0.8190915358102662m 0.5734674900384967m 0.014969763956940628m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">大象</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
